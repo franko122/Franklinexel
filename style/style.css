@@ -1,0 +1,552 @@
+@media(min-width:8px){
+    body{
+        background-color: #fefefeee;
+        padding: 0%;
+       font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+       margin: 0px; 
+    }
+    ._headerone{
+         width: 100%;
+         height: 300px;
+         background-color: rgba(0, 217, 0, 0.638);
+         overflow: hidden;
+         background-blend-mode: multiply;
+         position: absolute;
+         background-size: cover;
+         background-image: url(/asset/img/blog-img6.jpg);
+    }
+    .xel{
+        color:white;
+        padding: 10px;
+        font: bold;
+    }
+    .topnavert{
+        background-color:rgb(0, 217, 0);
+        width: 100%;
+        height:40px;
+        padding: 5px;
+        position: fixed;
+        z-index: 5; 
+        display: flex;
+        justify-content: space-between;
+    }
+    .getlogo{ 
+        font-size: 15px;
+        color: white;
+        width: 82%; 
+    }
+    .circp{
+        width: 15px;
+        border-radius: 100px;
+        height: 15px;
+        background-color: white; 
+    }
+    .displ{
+        display: flex;
+        align-items: center;
+        width: 35%;
+    } 
+    .rightside{
+        width: 10%; 
+        margin-right: 10px;
+        cursor: pointer;
+    }
+    .insidert{
+        width: 90%;
+        height: 5px;
+        margin-top: 7px;
+        border-radius: 1000px;
+        background-color: white;
+    }
+    .insiderts{
+        width: 90%;
+        height: 5px;
+        margin-top: 6px;
+        border-radius: 1000px;
+        background-color: white;
+    }
+    .insidertss{
+        width: 90%;
+        height: 5px;
+        margin-top: 6px;
+        border-radius: 1000px;
+        background-color: white;
+    }
+    .dropdown1{
+        width: 100%;
+        height:0vh; 
+        position: fixed;
+        z-index: 12;
+        background-color:rgb(0, 217, 0); 
+        overflow: hidden;
+    }
+    .lay{ 
+        cursor: pointer;
+        font: bold;
+        text-align: center;
+        margin-top: 15px;
+        padding: 10px;
+        color:white;
+        font-size: 13px; 
+        margin: auto;  
+    } 
+    .canse{
+        padding: 10px;
+        text-align: right;
+        color:white;
+        cursor: pointer;
+        font: bold;
+        font-size: 20px;
+    } 
+    .buys{
+        color: white;
+        font: bold;
+        font-size:30px;
+        visibility: visible;
+        text-align: center; 
+    } 
+    .buyss{
+        color: white;
+        font: bold;
+        font-size: 30px; 
+        visibility: hidden;
+        text-align: center;
+    }
+    .buysss{ 
+        color: white;
+        font: bold;
+        font-size: 30px; 
+        visibility: hidden;
+        text-align: center; 
+        margin-top: -7px;
+        font: bold; 
+    }
+    .crypto{
+        width: 0%;
+        margin: auto;
+        border-radius:9px;
+        margin-top: 14px;
+        background-color: white; 
+        overflow: hidden;
+        font: bold; 
+        text-align: center;
+        color:rgb(0, 217, 0); 
+        font-size: 12px;
+    }
+    .skills{
+        margin: 0%;
+        padding: 10px;
+        text-align: center;
+        color:rgb(0, 217, 0);
+        font-size: 15px;  
+    }
+    .faq{
+        text-align: center;
+        padding: 10px;
+        font: bold;
+        font-size: 20px; 
+        color:rgb(0, 217, 0); 
+    }
+    .onefaq{
+        width: 80%; 
+        padding: 10px;
+        border-radius: 10px;
+        margin:auto;
+        border: solid 1px rgb(0, 217, 0);
+    }
+    .aboutudside{
+        width:90%;
+        margin: auto;
+        font: bold;
+        padding: 10px;
+        border-radius: 10px; 
+        text-align: center;
+        overflow: hidden;
+        font-size: 12px;
+        background-color: white;
+        color:rgb(0, 217, 0); 
+    }
+    .one2{
+        width: 50px;
+        height: 50px;
+        display:flex;
+        align-items: center;
+        justify-content: center ;
+        border-radius: 1000px;
+        background-color:rgb(0, 217, 0); 
+    }
+    .one5{
+        color: white;
+    }
+    .laop{
+        display: flex; 
+        align-items: center;
+        color:rgb(0, 217, 0);  
+    }
+    .buin{
+        margin-left:5px;
+    }
+    .det{  
+        text-align: center;
+        color:rgb(0, 217, 0);  
+    }
+    .nowbtn{ 
+        margin: auto;
+        width: 40%;
+    } 
+    .now{
+        outline: none;  
+        width: 100%;
+        background-color:rgb(0, 217, 0); 
+        border: solid white ;
+        padding: 8px;
+        color:white;
+        cursor: pointer;
+    }
+    .tech{
+        text-align: center;
+        color: rgb(229, 229, 229);
+        font-size:8px;
+    } 
+    .mia{
+        display: flex;
+        width: 40%;
+        align-items: center; 
+        justify-content: center;
+    }
+    .imgtopi{
+        display: none;
+    }
+    .skilldiv{
+        width: 90%;
+        color: rgb(142, 142, 142);
+        margin: auto;
+    } 
+    .mekn{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    } 
+    .tmlk{
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+    color:rgb(0, 217, 0); 
+    margin-top: 5px;
+    font-size:12px;
+    }
+    .two{
+        margin-top: 5px;
+        border-radius: 5px;
+        width: 100%;
+        height: 20px; 
+        background-color:rgb(0, 217, 0); 
+        animation-name: stuff;
+        animation-duration: 4s;
+        animation-delay: 3s;
+    }
+      
+    .mewq{
+    padding: 10px;
+    width: 40%;
+    margin: auto;
+    }   
+    .new{
+        background-color:rgb(0, 217, 0); 
+        border: white;
+        outline: none;
+        padding: 15px;
+        font-size: 12px ;
+        width: 100%;
+        margin-top: 10px;
+        border-radius: 5px;
+        color: white;
+    }  
+    .dert{
+        border-radius: 5px;
+        margin: auto;
+        width: 10%;
+        margin-top: 5px;
+        height: 5px;
+        background-color:rgb(0, 217, 0); 
+    }
+    .ski{
+        margin: 0%; 
+        text-align: center; 
+        color:rgb(0, 217, 0);
+        font-size: 12px ; 
+    }
+    .saydiv{
+        margin-top: 10px;
+        width: 95%;   
+        margin: auto; 
+    }
+    .nexter{ 
+        display: flex;
+        margin: auto;
+        cursor: pointer;
+        width: 95%;
+        align-items: center; 
+    } 
+    .imgsiv{
+        width: 100%;
+        margin: auto;
+        padding: 10px; 
+        color: rgb(142, 142, 142);
+        align-items: center;
+        font-size: 7px; 
+    }
+    .skills{
+        margin: 0%;
+        padding: 10px;
+        text-align: center;
+        color:rgb(0, 217, 0);
+    }
+    .onedivider{
+        width: 100%;
+        height: 150px;
+        display: flex;
+    }
+    .oti{
+        width: 49%;
+        height: inherit; 
+    }
+    .abua{
+        width: 1%;
+        height: inherit;
+        display:flex; 
+        background-color:rgb(0, 217, 0);
+        justify-content: center; 
+        align-items: center;  
+    }
+    .imertdiv{
+        width: 50px;
+        height: 50px;
+        border-radius: 100px;
+        margin: auto;
+    }
+    .werting{
+        position: absolute;
+        width: 40px;
+        height: 40px;
+        color: white;
+        font-size: 12px;
+        z-index: 1;
+        border-radius: 100px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color:rgb(0, 217, 0);
+    }
+    .curdert{
+        width: 60px;
+        height: 60px;
+        border-radius: 100px;
+    }
+    .years{
+        text-align: center;
+        font-size: 10px;
+        width: 70%;
+        margin: auto;
+        margin-top: 20px;
+        color:rgb(0, 217, 0);
+    } 
+    .fotone{
+        width: 100%;
+        display: flex; 
+        justify-content: space-around;
+        padding: 1px;
+    }
+    a{
+        text-decoration: none;
+    }
+    .fotoner{
+        margin: auto;
+        display: flex; 
+        align-items: center;
+        width: 90%;  
+    }
+    .meloi{
+        color: white;
+        margin: 0%; 
+        display: flex;
+        align-items: center;
+        font-size: 10px;
+    }
+    .fotbtn{
+        border-radius:2px;
+        width: 35%;
+        border: solid 2px white;
+        outline: none;
+        color: white; 
+        padding: 10px;
+    }
+    .mail{
+        width: 55%;
+        outline: none;
+        border: none;
+        border-radius:2px;
+        padding: 10px;
+    }
+    .me3loi{ 
+        color: white;
+        margin: 0%;
+        width: 30%;
+        font-size: 20px;
+        border-bottom: solid 2px white;
+    }
+    .compu-div{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .meltering{
+       width: 10%;
+    }
+    .right{ 
+       font: bold;
+       margin-top: -5px;
+       font-size:10px;
+       text-align: center;
+       margin-left: 10px;   
+       padding: 10px;
+       color:white;
+    }
+    .loddiv{
+        position: fixed;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        display: none; 
+        margin-top: -10px;
+        background-color: white;
+        z-index: 222;
+        animation-name: lasgo;
+        animation-duration: 3s;
+    }
+    @keyframes lasgo {
+        10%{
+            display: block;
+        }
+    }
+     
+    .weebsite{ 
+    font-size: 12px;
+    margin: auto;
+    padding: 5px;
+    text-align: center;  
+    color:rgb(0, 217, 0);
+    font: bold;
+     }    
+     .oneplan{
+         width: 70%; 
+         border: rgb(0, 217, 0) 2px  solid;
+         border-radius: 15px;
+         margin: auto;
+     }
+     .weebsites{ 
+         font-size: 35px;
+         margin: auto;
+         padding: 5px;
+         text-align: center; 
+         color:rgb(0, 217, 0);
+         font: bold;
+     }
+     .pack{
+         font-size: 12px;
+         margin: auto;
+         padding: 5px;
+         text-align: center; 
+         color:rgb(0, 217, 0);
+         font: bold;
+     }
+     .nety{
+         width: 50%;
+         margin: auto;
+     }
+     .newe{
+         width: 100%;
+         border: white solid 1px;
+         padding: 10px;
+         border-radius: 5px;
+         font-size: 10px;
+         cursor: pointer;
+         color: white;
+         background-color:rgb(0, 217, 0);
+         outline: none;
+     }
+     .newed{
+        color: white;
+     }  
+     .show{
+        display: none;
+     }
+     .anoui{ 
+        display: none;
+     }
+     .mapi{ 
+        display: none;
+     }
+     .worldiv{
+        width:70% ;
+        height:40px;
+        border-radius: 10px;
+        margin: auto;
+        margin-top:10px;
+        background-color:rgb(0, 217, 0) ;
+        font-size: 10px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+     }
+     .gains{ 
+        color:white;
+     }
+}
+ 
+
+
+/* start of laptop 1  */
+@media(min-width:768px){
+    .tap{ 
+        width: 60%;
+        margin: auto;
+    } 
+    ._headerone{
+       height: 370px; 
+    }
+    .show{
+       display: block;
+    }
+    .show{
+       display: block;
+    }
+    .rightside{
+        width: 5%;
+    }
+    .aboutudside{
+        width: 40%;
+    }
+}
+/* ends of labtop1 */
+
+
+/* start of laptop 2  */
+@media(min-width:1440px){
+    .tap{ 
+        width: 60%;
+        margin: auto;
+    } 
+    ._headerone{
+        height: 450px; 
+    } 
+     .anoui{ 
+        display: none;
+     }
+     .mapi{ 
+        display: block;
+     }
+}
+/* ends of labtop 2 */
