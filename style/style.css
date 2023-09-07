@@ -504,10 +504,75 @@
      .gains{ 
         color:white;
      }
-}
- 
-
-
+     .onload{
+        width: 100%;
+        height: 100vh;
+        background-color: white;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 22;
+        animation-name: loadgo;
+        animation-duration:3s;
+        color:rgb(0, 217, 0) ;
+        visibility: hidden;
+     }
+     @keyframes loadgo {
+        10%{
+            visibility: visible;
+        }
+     } 
+     .xel{
+        color:rgb(0, 217, 0) ;
+        font: bold;   
+        font-size: 25px;
+        overflow: hidden;
+        width: 100%;
+        text-align: center; 
+        animation-name: loadert;
+        animation-duration: 3s;
+     }
+     @keyframes loadert {
+        10%{ 
+            width: 0%;
+        }
+     }
+     .myfoot{
+        width: 100%; 
+        background-color:rgb(0, 217, 0) ; 
+     }
+     .inputside{  
+        padding: 10px;
+        width: 77%;
+        margin: auto;
+        display: flex;
+        justify-content: space-around; 
+     }
+     .cribe{
+        padding: 10px;
+        font-size: 20px;
+       background-color: red;
+       color:white;
+       outline: none;
+       border: none;
+     }
+     .puter{
+        outline:none; 
+        padding:10px;
+     }
+     .downleftt{
+        color:white;
+        display:flex;
+        width: 100%;
+        font-size: 13px;
+        justify-content: space-around;
+     }
+     .downlefter{
+           color:white;
+           text-align: center;
+     }
+}  
 /* start of laptop 1  */
 @media(min-width:768px){
     .tap{ 
@@ -529,10 +594,14 @@
     .aboutudside{
         width: 40%;
     }
+    .inputside{
+        width: 60%;
+    }
+    .puter{
+        width: 60%;
+    }
 }
-/* ends of labtop1 */
-
-
+/* ends of labtop1 */  
 /* start of laptop 2  */
 @media(min-width:1440px){
     .tap{ 
