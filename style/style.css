@@ -1,6 +1,6 @@
 @media(min-width:8px){
     body{
-        background-color: #fefefeee;
+        background-color: blue;
         padding: 0%;
        font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
        margin: 0px; 
@@ -8,7 +8,7 @@
     ._headerone{
          width: 100%;
          height: 300px;
-         background-color: rgba(0, 217, 0, 0.638);
+         background-color: blue;
          overflow: hidden;
          background-blend-mode: multiply;
          position: absolute;
@@ -21,7 +21,7 @@
         font: bold;
     }
     .topnavert{
-        background-color:rgb(0, 217, 0);
+        background-color:blue;
         width: 100%;
         height:40px;
         padding: 5px;
@@ -77,7 +77,7 @@
         height:0vh; 
         position: fixed;
         z-index: 12;
-        background-color:rgb(0, 217, 0); 
+        background-color:blue; 
         overflow: hidden;
     }
     .lay{ 
@@ -152,7 +152,7 @@
         padding: 10px;
         border-radius: 10px;
         margin:auto;
-        border: solid 1px rgb(0, 217, 0);
+        border: solid 1px blue;
     }
     .aboutudside{
         width:90%;
@@ -173,7 +173,7 @@
         align-items: center;
         justify-content: center ;
         border-radius: 1000px;
-        background-color:rgb(0, 217, 0); 
+        background-color:blue; 
     }
     .one5{
         color: white;
@@ -197,7 +197,7 @@
     .now{
         outline: none;  
         width: 100%;
-        background-color:rgb(0, 217, 0); 
+        background-color:blue; 
         border: solid white ;
         padding: 8px;
         color:white;
@@ -241,7 +241,7 @@
         border-radius: 5px;
         width: 100%;
         height: 20px; 
-        background-color:rgb(0, 217, 0); 
+        background-color:blue; 
         animation-name: stuff;
         animation-duration: 4s;
         animation-delay: 3s;
@@ -253,7 +253,7 @@
     margin: auto;
     }   
     .new{
-        background-color:rgb(0, 217, 0); 
+        background-color:blue; 
         border: white;
         outline: none;
         padding: 15px;
@@ -269,7 +269,7 @@
         width: 10%;
         margin-top: 5px;
         height: 5px;
-        background-color:rgb(0, 217, 0); 
+        background-color:blue; 
     }
     .ski{
         margin: 0%; 
@@ -316,7 +316,7 @@
         width: 1%;
         height: inherit;
         display:flex; 
-        background-color:rgb(0, 217, 0);
+        background-color:blue;
         justify-content: center; 
         align-items: center;  
     }
@@ -337,7 +337,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        background-color:rgb(0, 217, 0);
+        background-color:blue;
     }
     .curdert{
         width: 60px;
@@ -442,7 +442,7 @@
      }    
      .oneplan{
          width: 70%; 
-         border: rgb(0, 217, 0) 2px  solid;
+         border: blue 2px  solid;
          border-radius: 15px;
          margin: auto;
      }
@@ -474,7 +474,7 @@
          font-size: 10px;
          cursor: pointer;
          color: white;
-         background-color:rgb(0, 217, 0);
+         background-color:blue;
          outline: none;
      }
      .newed{
@@ -495,7 +495,7 @@
         border-radius: 10px;
         margin: auto;
         margin-top:10px;
-        background-color:rgb(0, 217, 0) ;
+        background-color:blue ;
         font-size: 10px;
         display: flex;
         justify-content: space-around;
@@ -540,7 +540,7 @@
      }
      .myfoot{
         width: 100%; 
-        background-color:rgb(0, 217, 0) ; 
+        background-color:blue ; 
      }
      .inputside{  
         padding: 10px;
