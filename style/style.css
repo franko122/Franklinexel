@@ -130,14 +130,14 @@
         overflow: hidden;
         font: bold; 
         text-align: center;
-        color:rgb(0, 217, 0); 
+        color:blue; 
         font-size: 12px;
     }
     .skills{
         margin: 0%;
         padding: 10px;
         text-align: center;
-        color:rgb(0, 217, 0);
+        color:blue;
         font-size: 15px;  
     }
     .faq{
@@ -145,7 +145,7 @@
         padding: 10px;
         font: bold;
         font-size: 20px; 
-        color:rgb(0, 217, 0); 
+        color:blue; 
     }
     .onefaq{
         width: 80%; 
@@ -164,7 +164,7 @@
         overflow: hidden;
         font-size: 12px;
         background-color: white;
-        color:rgb(0, 217, 0); 
+        color: blue; 
     }
     .one2{
         width: 50px;
@@ -181,14 +181,14 @@
     .laop{
         display: flex; 
         align-items: center;
-        color:rgb(0, 217, 0);  
+        color:blue;  
     }
     .buin{
         margin-left:5px;
     }
     .det{  
         text-align: center;
-        color:rgb(0, 217, 0);  
+        color:blue;  
     }
     .nowbtn{ 
         margin: auto;
@@ -205,7 +205,7 @@
     }
     .tech{
         text-align: center;
-        color: rgb(229, 229, 229);
+        color: blue;
         font-size:8px;
     } 
     .mia{
@@ -219,7 +219,7 @@
     }
     .skilldiv{
         width: 90%;
-        color: rgb(142, 142, 142);
+        color: blue;
         margin: auto;
     } 
     .mekn{
@@ -232,7 +232,7 @@
     margin: 0%;
     padding: 0%;
     display: flex;
-    color:rgb(0, 217, 0); 
+    color:blue; 
     margin-top: 5px;
     font-size:12px;
     }
@@ -274,7 +274,7 @@
     .ski{
         margin: 0%; 
         text-align: center; 
-        color:rgb(0, 217, 0);
+        color:blue;
         font-size: 12px ; 
     }
     .saydiv{
@@ -293,7 +293,7 @@
         width: 100%;
         margin: auto;
         padding: 10px; 
-        color: rgb(142, 142, 142);
+        color:blue;
         align-items: center;
         font-size: 7px; 
     }
